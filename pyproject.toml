@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sotorage-local"
+version = "0.1.0"
+description = ""
+authors = ["Trem <henrique@morettiferreira.com.br>"]
+readme = "README.md"
+packages = [{include = "sotorage_local"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-cloud-storage = "^2.7.0"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
